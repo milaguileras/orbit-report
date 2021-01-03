@@ -14,7 +14,7 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #d5e9e1;
+  background: #d5dae9;
 }
 
 .header-row {
@@ -26,4 +26,8 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+.warning {
+    background: rgb(245, 217, 217);
 }
