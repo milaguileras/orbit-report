@@ -30,4 +30,9 @@ th, td {
 
 .warning {
     background: rgb(245, 217, 217);
+    color: rgb(235, 35, 13);
+}
+
+.zebraStripesRows {
+    background:rgb(213, 210, 247) ;
 }

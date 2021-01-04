@@ -13,6 +13,9 @@ export class Satellite {
         this.operational = operational
     }
     shouldShowWarning() : boolean {
-        return this.type.toLocaleLowerCase() === 'space debris'
+        return this.type.toLowerCase() === 'space debris'
+    }
+    zebraStripesRows(arr): boolean{
+        return arr.indexOf(this) % 2 === 0 && this.type.toLowerCase() !== 'space debris' 
     }
 }
